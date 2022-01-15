@@ -3,7 +3,7 @@
 • Go to the Visual Studio Code website and locate the download link for your respective OS
 • Find where the download was stored and open it, which should open the VS Code home page
 
-![Image](photo/vscode.png)
+![Image](photos/vscode.png)
 
 **Remotely Connecting**
 
@@ -13,14 +13,14 @@ ssh cs15lwi22zz@ieng6.ucsd.edu
 with your account specific three letters replacing the "zz"
 • If a message appears questioning the authenticity of the host, click yes and then enter your password to successfully log in 
 
-![Image](photo/remoteConnect.png)
+![Image](photos/remoteConnect.png)
 
 **Trying Some Commands**
 
 • To run a command, just enter the command and hit enter on either your computer or the remote one
 • Some example commands are cs ~, cd, ls -lat, and ls -a
 
-![Image](photo/tryingCommand.png)
+![Image](photos/tryingCommand.png)
 
 **Moving Files with scp**
 
@@ -29,7 +29,7 @@ with your account specific three letters replacing the "zz"
 scp <filename.java> cs15lwi22zz@ieng6.ucsd.edu:~/
 • Log into the remote computer using ssh and use ls to see the file in the directory, allowing you to run the file now
 
-![Image](photo/movingFiles.png)
+![Image](photos/movingFiles.png)
 
 **Setting an SSH Key**
 
@@ -37,7 +37,7 @@ scp <filename.java> cs15lwi22zz@ieng6.ucsd.edu:~/
 • Hit enter when prompted for the passphrase and enter again to confirm the password
 • A statement saying your indentification and public key has been saved in the file will then appear, meaning you've successfully set the key
 
-![Image](photo/settingKey.png)
+![Image](photos/settingKey.png)
 
 **Optimizing Remote Running**
 
@@ -45,4 +45,4 @@ scp <filename.java> cs15lwi22zz@ieng6.ucsd.edu:~/
 • One is by writing the command in quotes, which will then close the remote server after the command runs
 • Use the up arrows to recall the last command that was called instead of retyping it
 
-![Image](photo/optimizingRunning.png)
+![Image](photos/optimizingRunning.png)
