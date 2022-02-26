@@ -6,4 +6,4 @@ home page
 
 [Link to Lab Report 3](lab3.html)
 
-[Link to Lab Report 3](lab4.html)
+[Link to Lab Report 4](lab4.html)
