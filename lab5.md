@@ -5,7 +5,7 @@ During the lab we learned how to put the results into a text file, so I ran the 
 
 ## Test 1: File 500
 
-The correct implementation for this test would be the one provided in the commonmark-spec tests. The expected output would be the word link three times, each linked to a different website indicated by the text inside the brackets. 
+The correct implementation for this test would be the one provided in the commonmark-spec tests. The expected output would be the three different website URLs provided in the markdown file.
 
 **Provided Implementation**
 
