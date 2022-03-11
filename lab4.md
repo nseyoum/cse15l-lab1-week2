@@ -10,11 +10,11 @@
 
 2. Output of Running Tests
 
-![Image](photos/snippetfail1.png)
+![Image](photos/test1fail.png)
 
 3. Can it be fixed in <10 lines?
 
-I think there is a code change that could help with code having inline backticks but it might be more than 10 lines. My initial thought process would be to first check the index of backticks and if it's -1, proceed to the next check. If there are backticks present, you'd have to check if it's within the attempt to initialize a URL. If it is, then the code would add nothing to the array.
+I think there is a code change that could help with code having inline backticks but it might be more than 10 lines. My initial thought process would be to first check the index of backticks and if it's -1, proceed to the next check. If there are backticks present, you'd have to check if it's within the attempt to initialize a URL. 
 
 **Code Snippet 2**
 
@@ -24,11 +24,11 @@ I think there is a code change that could help with code having inline backticks
 
 2. Output of Running Tests
 
-The test passed for Code Snippet 2.
+![Image](photos/test2fail.png)
 
 3. Can it be fixed in <10 lines?
 
-Currently my code does work for snippet 2.
+I don't think it can be fixed in less than 10 lines. Currently there's no code that checks for multiple brackets in one line so adding those checks and then the code to check if theres parentheses within that would be more than 10 lines.
 
 **Code Snippet 3**
 
@@ -54,13 +54,13 @@ I think it could be fixed in less than 10 lines. In our current checks, there ar
 
 1. Output of Running Tests
 
-![Image](photos/snippetfail3.png)
+![Image](photos/test1.2fail.png)
 
 **Code Snippet 2**
 
 1. Output of Running Tests
 
-![Image](photos/snippetfail4.png)
+![Image](photos/test2.2fail.png)
 
 **Code Snippet 3**
 
