@@ -6,7 +6,7 @@
 
 1. How I turned it into a test
 
-![Image](photos/snippet1.png)
+![Image](photos/snippet1.0.png)
 
 2. Output of Running Tests
 
@@ -20,7 +20,7 @@ I think there is a code change that could help with code having inline backticks
 
 1. How I turned it into a test
 
-![Image](photos/snippet2.png)
+![Image](photos/snippet2.0.png)
 
 2. Output of Running Tests
 
